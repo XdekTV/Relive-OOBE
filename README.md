@@ -1,3 +1,5 @@
+# This is the transated OOBE for the use in Relive7, in pl-PL
+
 # Classic-OOBE
 This was made using C# and WinForms. Please if you have any fixes, fork it, and them and make a pull request! I have no issues doing so.
 
