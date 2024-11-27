@@ -243,12 +243,17 @@ namespace WindowsOOBERecreation
 
             if (!result)
             {
-                MessageBox.Show("Failed to set the system date.");
+               Console.WriteLine($"Failed to set the system date.");
             }
             else
             {
-                MessageBox.Show("System date updated successfully!");
+                Console.WriteLine("System date updated successfully!");
             }
+        }
+
+        private void timeZoneCombo_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -39,6 +39,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -50,10 +52,10 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(37, 168);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(514, 15);
+            this.label1.Size = new System.Drawing.Size(467, 30);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Choose a user name for your account and name your computer to distinguish it on t" +
-    "he network.";
+            this.label1.Text = "Wybierz nazwę użytkownika dla swojego          i nazwę swojego komputera, która b" +
+    "ędzie\r\nwyróżniać go w sieci.";
             // 
             // label2
             // 
@@ -61,9 +63,9 @@
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(167, 203);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(206, 15);
+            this.label2.Size = new System.Drawing.Size(258, 15);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Type a user name (for example, John):";
+            this.label2.Text = "Wpisz nazwę użytkownika (na przykład: Tomek):";
             // 
             // usernameBox
             // 
@@ -80,7 +82,8 @@
             this.computernameBox.Name = "computernameBox";
             this.computernameBox.Size = new System.Drawing.Size(240, 23);
             this.computernameBox.TabIndex = 5;
-            this.computernameBox.Text = "PC";
+            this.computernameBox.Text = "Komputer";
+            this.computernameBox.TextChanged += new System.EventHandler(this.computernameBox_TextChanged);
             // 
             // label3
             // 
@@ -88,9 +91,9 @@
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(165, 242);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(131, 15);
+            this.label3.Size = new System.Drawing.Size(38, 15);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Type a computer name:";
+            this.label3.Text = "Wpisz";
             // 
             // panel1
             // 
@@ -118,7 +121,7 @@
             this.nextButton.Name = "nextButton";
             this.nextButton.Size = new System.Drawing.Size(69, 23);
             this.nextButton.TabIndex = 7;
-            this.nextButton.Text = "Next";
+            this.nextButton.Text = "Dalej";
             this.nextButton.UseVisualStyleBackColor = true;
             this.nextButton.Click += new System.EventHandler(this.nextButton_Click);
             // 
@@ -126,11 +129,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(262, 408);
+            this.label4.Location = new System.Drawing.Point(216, 408);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(328, 15);
+            this.label4.Size = new System.Drawing.Size(377, 15);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Copyright © 2009 Microsoft Corporation.  All rights reserved.";
+            this.label4.Text = "Copyright © 2009 Microsoft Corporation.  Wszelkie prawa zastrzeżone.";
             // 
             // pictureBox2
             // 
@@ -152,12 +155,38 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.linkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            this.linkLabel1.Location = new System.Drawing.Point(253, 168);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(37, 15);
+            this.linkLabel1.TabIndex = 9;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "konta";
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.linkLabel2.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            this.linkLabel2.Location = new System.Drawing.Point(199, 242);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(104, 15);
+            this.linkLabel2.TabIndex = 10;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "nazwę komputera:";
+            // 
             // Start
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(593, 466);
+            this.Controls.Add(this.linkLabel2);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.panel1);
@@ -194,6 +223,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel linkLabel2;
     }
 }
 

@@ -35,7 +35,7 @@ namespace WindowsOOBERecreation
         private void UsernameBox_TextChanged(object sender, EventArgs e)
         {
             string sanitizedUsername = usernameBox.Text.Replace(" ", string.Empty);
-            computernameBox.Text = $"{sanitizedUsername}-PC";
+            computernameBox.Text = $"{sanitizedUsername}-Komputer";
 
             nextButton.Enabled = !string.IsNullOrWhiteSpace(usernameBox.Text);
 
@@ -82,6 +82,11 @@ namespace WindowsOOBERecreation
         {
             clickCount = 0;
             clickTimer.Stop();
+        }
+
+        private void computernameBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

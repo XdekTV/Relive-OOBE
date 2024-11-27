@@ -67,7 +67,7 @@
             this.nextButton.Name = "nextButton";
             this.nextButton.Size = new System.Drawing.Size(69, 23);
             this.nextButton.TabIndex = 7;
-            this.nextButton.Text = "Next";
+            this.nextButton.Text = "Dalej";
             this.nextButton.UseVisualStyleBackColor = true;
             this.nextButton.Click += new System.EventHandler(this.nextButton_Click);
             // 
@@ -78,9 +78,9 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(153)))));
             this.label1.Location = new System.Drawing.Point(34, 51);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(253, 21);
+            this.label1.Size = new System.Drawing.Size(248, 21);
             this.label1.TabIndex = 9;
-            this.label1.Text = "Review your time and date settings";
+            this.label1.Text = "Przejrzyj ustawienia godziny i daty";
             // 
             // timeZoneCombo
             // 
@@ -90,6 +90,7 @@
             this.timeZoneCombo.Name = "timeZoneCombo";
             this.timeZoneCombo.Size = new System.Drawing.Size(328, 23);
             this.timeZoneCombo.TabIndex = 10;
+            this.timeZoneCombo.SelectedIndexChanged += new System.EventHandler(this.timeZoneCombo_SelectedIndexChanged_1);
             // 
             // label2
             // 
@@ -97,9 +98,9 @@
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(37, 90);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 15);
+            this.label2.Size = new System.Drawing.Size(87, 15);
             this.label2.TabIndex = 11;
-            this.label2.Text = "Time zone:";
+            this.label2.Text = "Strefa czasowa:";
             // 
             // DSTCheckbox
             // 
@@ -109,9 +110,9 @@
             this.DSTCheckbox.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DSTCheckbox.Location = new System.Drawing.Point(38, 148);
             this.DSTCheckbox.Name = "DSTCheckbox";
-            this.DSTCheckbox.Size = new System.Drawing.Size(299, 19);
+            this.DSTCheckbox.Size = new System.Drawing.Size(275, 19);
             this.DSTCheckbox.TabIndex = 12;
-            this.DSTCheckbox.Text = "Automatically adjust clock for Daylight Saving Time";
+            this.DSTCheckbox.Text = "Automatycznie dostosuj zegar do zmiany czasu";
             this.DSTCheckbox.UseVisualStyleBackColor = true;
             // 
             // label3
@@ -122,11 +123,11 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(34, 15);
             this.label3.TabIndex = 13;
-            this.label3.Text = "Date:";
+            this.label3.Text = "Data:";
             // 
             // clockBrowser
             // 
-            this.clockBrowser.Location = new System.Drawing.Point(298, 196);
+            this.clockBrowser.Location = new System.Drawing.Point(318, 201);
             this.clockBrowser.MinimumSize = new System.Drawing.Size(20, 20);
             this.clockBrowser.Name = "clockBrowser";
             this.clockBrowser.ScrollBarsEnabled = false;
@@ -137,11 +138,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(298, 183);
+            this.label4.Location = new System.Drawing.Point(311, 183);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(37, 15);
+            this.label4.Size = new System.Drawing.Size(53, 15);
             this.label4.TabIndex = 15;
-            this.label4.Text = "Time:";
+            this.label4.Text = "Godzina:";
             // 
             // panel2
             // 

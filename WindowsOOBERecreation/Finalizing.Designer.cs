@@ -47,9 +47,9 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(199, 206);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(189, 15);
+            this.label1.Size = new System.Drawing.Size(206, 15);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Windows is finalizing your settings";
+            this.label1.Text = "System Windows finalizuje ustawienia";
             // 
             // pictureBox1
             // 

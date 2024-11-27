@@ -50,7 +50,7 @@
             this.nextButton.Name = "nextButton";
             this.nextButton.Size = new System.Drawing.Size(69, 23);
             this.nextButton.TabIndex = 7;
-            this.nextButton.Text = "Next";
+            this.nextButton.Text = "Dalej";
             this.nextButton.UseVisualStyleBackColor = true;
             this.nextButton.Click += new System.EventHandler(this.nextButton_Click);
             // 
@@ -79,9 +79,9 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(153)))));
             this.label1.Location = new System.Drawing.Point(34, 50);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(233, 21);
+            this.label1.Size = new System.Drawing.Size(224, 21);
             this.label1.TabIndex = 8;
-            this.label1.Text = "Set a password for your account";
+            this.label1.Text = "Ustaw hasło dla swojego konta";
             // 
             // label2
             // 
@@ -89,11 +89,11 @@
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(37, 90);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(494, 30);
+            this.label2.Size = new System.Drawing.Size(508, 30);
             this.label2.TabIndex = 9;
-            this.label2.Text = "Creating a password is a smart security precaution that helps protect your user a" +
-    "ccount from\r\nunwanted users. Be sure to remember your password or keep it in a s" +
-    "afe place.\r\n";
+            this.label2.Text = "Utworzenie hasła to środek ostrożności ułatwiający ochronę konta przed niepożądan" +
+    "ymi\r\nużytkownikami. Upewnij się, że nie zapomnisz hasła, lub przechowuj je w bez" +
+    "piecznym miejscu.";
             // 
             // confpasswordBox
             // 
@@ -112,7 +112,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(126, 15);
             this.label3.TabIndex = 12;
-            this.label3.Text = "Retype your password:";
+            this.label3.Text = "Ponownie wpisz hasło:";
             // 
             // passwordBox
             // 
@@ -129,9 +129,9 @@
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(37, 140);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(185, 15);
+            this.label4.Size = new System.Drawing.Size(128, 15);
             this.label4.TabIndex = 10;
-            this.label4.Text = "Type a password (recommended):";
+            this.label4.Text = "Wpisz hasło (zalecane):";
             // 
             // passwordHintBox
             // 
@@ -147,9 +147,9 @@
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(37, 238);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(120, 15);
+            this.label5.Size = new System.Drawing.Size(189, 15);
             this.label5.TabIndex = 14;
-            this.label5.Text = "Type a password hint:";
+            this.label5.Text = "Wpisz wskazówkę dotyczącą hasła:";
             // 
             // label6
             // 
@@ -157,10 +157,10 @@
             this.label6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(37, 289);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(361, 30);
+            this.label6.Size = new System.Drawing.Size(341, 30);
             this.label6.TabIndex = 16;
-            this.label6.Text = "Choose a word or phrase that helps your remember your password.\r\nIf you forget yo" +
-    "ur password, Windows will show you your hint.\r\n";
+            this.label6.Text = "Wybierz słowo lub wyrażenie ułatwiające zapamiętanie hasła.\r\nJeśli zapomnisz hasł" +
+    "a, system Windows wyświetli tę wskazówkę.";
             // 
             // Password
             // 

@@ -62,7 +62,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(69, 23);
             this.button1.TabIndex = 8;
-            this.button1.Text = "Skip";
+            this.button1.Text = "Pomiń";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -73,7 +73,7 @@
             this.nextButton.Name = "nextButton";
             this.nextButton.Size = new System.Drawing.Size(69, 23);
             this.nextButton.TabIndex = 7;
-            this.nextButton.Text = "Next";
+            this.nextButton.Text = "Dalej";
             this.nextButton.UseVisualStyleBackColor = true;
             this.nextButton.Click += new System.EventHandler(this.nextButton_Click);
             // 
@@ -83,7 +83,7 @@
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(37, 90);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(500, 45);
+            this.label2.Size = new System.Drawing.Size(516, 45);
             this.label2.TabIndex = 18;
             this.label2.Text = resources.GetString("label2.Text");
             // 
@@ -94,9 +94,9 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(153)))));
             this.label1.Location = new System.Drawing.Point(35, 50);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(233, 21);
+            this.label1.Size = new System.Drawing.Size(290, 21);
             this.label1.TabIndex = 17;
-            this.label1.Text = "Type your Windows product key";
+            this.label1.Text = "Wpisz klucz produktu systemu Windows";
             // 
             // label3
             // 
@@ -104,9 +104,9 @@
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.label3.Location = new System.Drawing.Point(37, 153);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(201, 15);
+            this.label3.Size = new System.Drawing.Size(285, 15);
             this.label3.TabIndex = 19;
-            this.label3.Text = "The product key looks similar to this:";
+            this.label3.Text = "Klucz produktu ma postać podobną do następującej:";
             // 
             // label4
             // 
@@ -114,9 +114,9 @@
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.label4.Location = new System.Drawing.Point(37, 177);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(285, 15);
+            this.label4.Size = new System.Drawing.Size(307, 15);
             this.label4.TabIndex = 20;
-            this.label4.Text = "PRODUCT KEY: XXXXX-XXXXX-XXXXX-XXXXX-XXXXX";
+            this.label4.Text = "KLUCZ PRODUKTU: XXXXX-XXXXX-XXXXX-XXXXX-XXXXX";
             // 
             // textBox1
             // 
@@ -133,9 +133,9 @@
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.label5.Location = new System.Drawing.Point(37, 225);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(199, 15);
+            this.label5.Size = new System.Drawing.Size(212, 15);
             this.label5.TabIndex = 22;
-            this.label5.Text = "(dashes will be added automatically)";
+            this.label5.Text = "(myślniki są dodawane automatycznie)";
             // 
             // checkBox1
             // 
@@ -143,9 +143,9 @@
             this.checkBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.checkBox1.Location = new System.Drawing.Point(38, 256);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(284, 19);
+            this.checkBox1.Size = new System.Drawing.Size(387, 19);
             this.checkBox1.TabIndex = 23;
-            this.checkBox1.Text = "Automatically activate Windows when I\'m online";
+            this.checkBox1.Text = "Automatycznie aktywuj system Windows, gdy jestem w trybie online";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // linkLabel1
@@ -155,10 +155,10 @@
             this.linkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.linkLabel1.Location = new System.Drawing.Point(35, 351);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(106, 15);
+            this.linkLabel1.Size = new System.Drawing.Size(117, 15);
             this.linkLabel1.TabIndex = 24;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "What is activation?";
+            this.linkLabel1.Text = "Co to jest aktywacja?";
             // 
             // linkLabel2
             // 
@@ -167,10 +167,10 @@
             this.linkLabel2.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.linkLabel2.Location = new System.Drawing.Point(35, 370);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(151, 15);
+            this.linkLabel2.Size = new System.Drawing.Size(307, 15);
             this.linkLabel2.TabIndex = 25;
             this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "Read our privacy statement";
+            this.linkLabel2.Text = "Przeczytaj nasze zasady zachowania poufności informacji";
             // 
             // panel2
             // 
