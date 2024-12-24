@@ -1,6 +1,7 @@
 ﻿using System;
-using System.IO;
+using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 
 namespace WindowsOOBERecreation
@@ -33,6 +34,28 @@ namespace WindowsOOBERecreation
             pictureBox2.Tag = "backnotallowed";
 
             EnablePictureBoxEvents();
+        }
+
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == (Keys.Control | Keys.Shift | Keys.F3))
+            {
+                RunAuditMode();
+                return true;
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
+
+        private void RunAuditMode()
+        {
+            try
+            {
+                Process.Start("cmd.exe", "/C sysprep /audit /reboot");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Failed to execute Audit Mode: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private bool IsImageDisabled()
